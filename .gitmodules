@@ -7,3 +7,9 @@
 [submodule "machine-learning"]
 	path = machine-learning
 	url = git@github.com:mkmad/machine-learning.git
+[submodule "kali"]
+	path = kali
+	url = git@github.com:mkmad/kali.git
+[submodule "algorithms"]
+	path = algorithms
+	url = git@github.com:mkmad/algorithms.git
