@@ -13,3 +13,6 @@
 [submodule "algorithms"]
 	path = algorithms
 	url = git@github.com:mkmad/algorithms.git
+[submodule "pythonicStuff"]
+	path = pythonicStuff
+	url = git@github.com:mkmad/pythonicStuff.git
