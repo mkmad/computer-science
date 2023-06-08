@@ -13,3 +13,6 @@
 [submodule "pythonicStuff"]
 	path = pythonicStuff
 	url = git@github.com:mkmad/pythonicStuff.git
+[submodule "ctci"]
+	path = ctci
+	url = git@github.com:mkmad/ctci.git
