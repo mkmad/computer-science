@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  python :
+    build: .
+    volumes:
+      - .:/app/
+    ports:
+      - "8888:8888"
+    networks:
+      - app-tier
+    command: "jupyter notebook --ip 0.0.0.0 --no-browser --allow-root"
+
+networks:
+  app-tier:
+    driver: bridge

@@ -1,0 +1,6 @@
+cython
+jupyter
+jupyterlab
+ipython
+ipykernel
+unqlite

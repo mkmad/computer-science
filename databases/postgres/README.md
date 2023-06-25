@@ -1,5 +1,10 @@
 Docker Commands
 
+ Note: This is for Assignment 1, using stand alone dockerfile. Other assignments use a docker-compose file.
+ 
+ build
+ `docker build -t postgresql`
+
  start
  `docker run -itd -e POSTGRES_USER=postgres -e POSTGRES_HOST_AUTH_METHOD=trust -p 5432:5432 -v ~/projects/kponnan-511/data/:/var/lib/postgresql/data --name postgresql postgres:10`
 
