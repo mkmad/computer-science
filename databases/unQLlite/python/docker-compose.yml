@@ -1,17 +1,17 @@
 version: '3.8'
 
 services:
-
   python :
     build: .
     volumes:
-      - .:/app/
+      - ${LOCAL_DIR}:${CONTAINER_DIR} # these values are set in the .env file
+      - ${LOCAL_SSL_CERTS}:${CERT_MOUNT}
     ports:
-      - "8888:8888"
+      - "${PORT}:${PORT}"
     networks:
       - app-tier
-    command: "jupyter notebook --ip 0.0.0.0 --no-browser --allow-root"
+    command: "${CONTAINER_DIR}/start_jnb.sh"
 
 networks:
   app-tier:
-    driver: bridge
+    driver: "${NETWORK_DRIVER}"

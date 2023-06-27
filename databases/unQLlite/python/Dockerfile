@@ -18,6 +18,12 @@ COPY *.py /app/
 COPY *.ipynb /app/
 COPY *.txt /app/
 COPY *.db  /app/
-RUN pip install -r requirements.txt
+COPY *.sh /app/
+COPY *.env /app/
+
+# cache dependencies in a layer (faster builds)
+# https://pythonspeed.com/articles/docker-cache-pip-downloads/
+RUN --mount=type=cache,target=/root/.cache \
+    pip install -r requirements.txt
 
 EXPOSE 8888

@@ -1,6 +1,6 @@
 Docker Commands
 
- `docker-compose up --no-cache`
+ `docker-compose up --build`
 
 Note: `docker-compose` file already has the entry point command to start a jupyter notebook and map port `8888` to localhost
 
