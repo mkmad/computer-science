@@ -47,5 +47,37 @@ object HotcellUtils {
     return calendar.get(Calendar.DAY_OF_MONTH)
   }
 
-  // YOU NEED TO CHANGE THIS PART
+  def calculateModifiedScore(pickupPoints: Int, numNeighbors: Int, numCells: Int, average: Double, standardDeviation: Double): Double = {
+    val numerator = pickupPoints.toDouble - (average * numNeighbors.toDouble)
+    val denominator = standardDeviation * math.sqrt(((numCells.toDouble * numNeighbors.toDouble) - math.pow(numNeighbors.toDouble, 2)) / (numCells.toDouble - 1.0))
+    val result = numerator / denominator
+
+    result
+  }
+
+  def calculateNumNeighbors(xInput: Int, yInput: Int, zInput: Int, xMin: Int, yMin: Int, zMin: Int, xMax: Int, yMax: Int, zMax: Int): Int = {
+    var neighborCheck = 0
+    var totalNeighbors = 26
+    var missingNeighbors = 0
+    
+    if (xInput == xMin || xInput == xMax) {
+      neighborCheck += 1
+    }
+    if (yInput == yMin || yInput == yMax) {
+      neighborCheck += 1
+    }
+    if (zInput == zMin || zInput == zMax) {
+      neighborCheck += 1
+    }
+
+    missingNeighbors = neighborCheck match {
+      case 0 => 0
+      case 1 => 9
+      case 2 => 15
+      case 3 => 19
+    }
+    
+    totalNeighbors - missingNeighbors
+  }
+
 }
