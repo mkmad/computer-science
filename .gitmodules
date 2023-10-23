@@ -16,6 +16,6 @@
 [submodule "ctci"]
 	path = ctci
 	url = git@github.com:mkmad/ctci.git
-[submodule "detection-rules"]
-	path = detection-rules
-	url = git@github.com:mkmad/detection-rules.git
+[submodule "sre-interview-prep-guide"]
+	path = sre-interview-prep-guide
+	url = git@github.com:mkmad/sre-interview-prep-guide.git
