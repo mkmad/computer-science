@@ -19,3 +19,12 @@
 [submodule "sre-interview-prep-guide"]
 	path = sre-interview-prep-guide
 	url = git@github.com:mkmad/sre-interview-prep-guide.git
+[submodule "databases"]
+	path = databases
+	url = git@github.com:mkmad/databases.git
+[submodule "infosec"]
+	path = infosec
+	url = git@github.com:mkmad/infosec.git
+[submodule "distributed-systems"]
+	path = distributed-systems
+	url = git@github.com:mkmad/distributed-systems.git
