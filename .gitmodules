@@ -28,3 +28,6 @@
 [submodule "distributed-systems"]
 	path = distributed-systems
 	url = git@github.com:mkmad/distributed-systems.git
+[submodule "python-grpc"]
+	path = python-grpc
+	url = git@github.com:mkmad/python-grpc.git
