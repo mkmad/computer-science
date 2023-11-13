@@ -31,3 +31,6 @@
 [submodule "python-grpc"]
 	path = python-grpc
 	url = git@github.com:mkmad/python-grpc.git
+[submodule "grafana_prometheus"]
+	path = grafana_prometheus
+	url = git@github.com:mkmad/grafana_prometheus.git
