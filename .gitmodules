@@ -43,3 +43,6 @@
 [submodule "gcp"]
 	path = gcp
 	url = git@github.com:mkmad/gcp.git
+[submodule "data-mining"]
+	path = data-mining
+	url = git@github.com:mkmad/data-mining.git
