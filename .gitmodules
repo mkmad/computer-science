@@ -40,3 +40,6 @@
 [submodule "terraform"]
 	path = terraform
 	url = git@github.com:mkmad/terraform.git
+[submodule "gcp"]
+	path = gcp
+	url = git@github.com:mkmad/gcp.git
