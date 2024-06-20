@@ -46,3 +46,6 @@
 [submodule "data-mining"]
 	path = data-mining
 	url = git@github.com:mkmad/data-mining.git
+[submodule "open-vpn"]
+	path = open-vpn
+	url = git@github.com:mkmad/open-vpn.git
