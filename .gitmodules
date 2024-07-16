@@ -49,3 +49,6 @@
 [submodule "open-vpn"]
 	path = open-vpn
 	url = git@github.com:mkmad/open-vpn.git
+[submodule "gws"]
+	path = gws
+	url = git@github.com:mkmad/gws.git
