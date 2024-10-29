@@ -52,3 +52,9 @@
 [submodule "gws"]
 	path = gws
 	url = git@github.com:mkmad/gws.git
+[submodule "Django"]
+	path = Django
+	url = git@github.com:mkmad/Django.git
+[submodule "canary-bg"]
+	path = canary-bg
+	url = git@github.com:mkmad/canary-bg.git
