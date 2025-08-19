@@ -101,8 +101,10 @@ This repository contains organized submodules covering:
   - Chapter-wise solutions and implementations
 
 ### 🎯 **Specialized Projects**
-- **`quality-of-life/`** - Quality of Life application (uninitialized)
-  - Web application for quality of life metrics
+- **`quality-of-life/`** - Quality of Life application
+  - Modern health and wellness platform with AI mentorship
+  - React, TypeScript, Tailwind CSS web application
+  - Medical appointment booking and educational content
 
 ## Quick Start
 
@@ -180,6 +182,17 @@ cd ../data-mining && pip install -r requirements.txt
   # Follow the setup instructions in the README
   ```
 
+#### quality-of-life/
+- **Purpose**: Modern health and wellness platform
+- **Content**: AI health mentorship, medical appointment booking, educational content
+- **Tech Stack**: React, TypeScript, Tailwind CSS, Framer Motion
+- **Quick Start**:
+  ```bash
+  cd quality-of-life
+  npm install
+  npm start
+  ```
+
 
 
 ### Algorithms & Interview Prep
@@ -231,7 +244,7 @@ This repository uses Git submodules extensively. Here are the key submodules:
 - `sre-interview-prep-guide/` - SRE materials
 
 ### Specialized Submodules
-- `quality-of-life/` - Quality of life application (uninitialized)
+- `quality-of-life/` - Quality of life application
 - `distributed-systems/` - Distributed systems patterns
 
 ### Submodule Commands
