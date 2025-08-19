@@ -58,3 +58,6 @@
 [submodule "canary-bg"]
 	path = canary-bg
 	url = git@github.com-personal:mkmad/canary-bg.git
+[submodule "quality-of-life"]
+	path = quality-of-life
+	url = https://github.com/kiruthika-Ponnan/quality-of-life.git
