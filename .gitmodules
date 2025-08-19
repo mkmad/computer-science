@@ -61,3 +61,6 @@
 [submodule "quality-of-life"]
 	path = quality-of-life
 	url = https://github.com/kiruthika-Ponnan/quality-of-life.git
+[submodule "vertex-ai-mlops"]
+	path = vertex-ai-mlops
+	url = https://github.com/statmike/vertex-ai-mlops.git
