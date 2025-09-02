@@ -1,66 +1,66 @@
 [submodule "google-interview-university"]
 	path = google-interview-university
-	url = https://github.com/mkmad/google-interview-university
+	url = git@github.com-personal:mkmad/google-interview-university
 [submodule "machine-learning"]
 	path = machine-learning
-	url = https://github.com/mkmad/machine-learning
+	url = git@github.com-personal:mkmad/machine-learning
 [submodule "kali"]
 	path = kali
-	url = https://github.com/mkmad/kali
+	url = git@github.com-personal:mkmad/kali
 [submodule "algorithms"]
 	path = algorithms
-	url = https://github.com/mkmad/algorithms
+	url = git@github.com-personal:mkmad/algorithms
 [submodule "pythonicStuff"]
 	path = pythonicStuff
-	url = https://github.com/mkmad/pythonicStuff
+	url = git@github.com-personal:mkmad/pythonicStuff
 [submodule "ctci"]
 	path = ctci
-	url = https://github.com/mkmad/ctci
+	url = git@github.com-personal:mkmad/ctci
 [submodule "sre-interview-prep-guide"]
 	path = sre-interview-prep-guide
-	url = https://github.com/mkmad/sre-interview-prep-guide
+	url = git@github.com-personal:mkmad/sre-interview-prep-guide
 [submodule "databases"]
 	path = databases
-	url = https://github.com/mkmad/databases
+	url = git@github.com-personal:mkmad/databases
 [submodule "infosec"]
 	path = infosec
-	url = https://github.com/mkmad/infosec
+	url = git@github.com-personal:mkmad/infosec
 [submodule "distributed-systems"]
 	path = distributed-systems
 	url = https://github.com/mkmad/distributed-systems
 [submodule "python-grpc"]
 	path = python-grpc
-	url = https://github.com/mkmad/python-grpc
+	url = git@github.com-personal:mkmad/python-grpc
 [submodule "grafana_prometheus"]
 	path = grafana_prometheus
-	url = https://github.com/mkmad/grafana_prometheus
+	url = git@github.com-personal:mkmad/grafana_prometheus
 [submodule "data-visualization"]
 	path = data-visualization
-	url = https://github.com/mkmad/data-visualization
+	url = git@github.com-personal:mkmad/data-visualization
 [submodule "terraform"]
 	path = terraform
-	url = https://github.com/mkmad/terraform
+	url = git@github.com-personal:mkmad/terraform
 [submodule "gcp"]
 	path = gcp
-	url = https://github.com/mkmad/gcp
+	url = git@github.com-personal:mkmad/gcp
 [submodule "data-mining"]
 	path = data-mining
-	url = https://github.com/mkmad/data-mining
+	url = git@github.com-personal:mkmad/data-mining
 [submodule "open-vpn"]
 	path = open-vpn
-	url = https://github.com/mkmad/open-vpn
+	url = git@github.com-personal:mkmad/open-vpn
 [submodule "gws"]
 	path = gws
-	url = https://github.com/mkmad/gws
+	url = git@github.com-personal:mkmad/gws
 [submodule "Django"]
 	path = Django
-	url = https://github.com/mkmad/Django
+	url = git@github.com-personal:mkmad/Django
 [submodule "canary-bg"]
 	path = canary-bg
-	url = https://github.com/mkmad/canary-bg
+	url = git@github.com-personal:mkmad/canary-bg
 [submodule "quality-of-life"]
 	path = quality-of-life
-	url = https://github.com/kiruthika-Ponnan/quality-of-life
+	url = git@github.com-personal:kiruthika-Ponnan/quality-of-life
 [submodule "adk-samples"]
 	path = adk-samples
-	url = https://github.com/google/adk-samples
+	url = git@github.com-personal:google/adk-samples
