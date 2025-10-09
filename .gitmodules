@@ -62,3 +62,6 @@
 [submodule "adk-samples"]
 	path = adk-samples
 	url = https://github.com/google/adk-samples
+[submodule "gcp_scanner"]
+	path = gcp_scanner
+	url = git@github.com-personal:mkmad/gcp_scanner.git
