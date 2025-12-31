@@ -47,6 +47,7 @@
 [submodule "open-vpn"]
 	path = open-vpn
 	url = https://github.com/mkmad/open-vpn
+	branch = main
 [submodule "gws"]
 	path = gws
 	url = https://github.com/mkmad/gws
@@ -55,7 +56,7 @@
 	url = https://github.com/mkmad/Django
 [submodule "canary-bg"]
 	path = canary-bg
-	url = https://github.com/mkmad/canary-bg
+	url = git@github.com:mkmad/canary-bg.git
 [submodule "quality-of-life"]
 	path = quality-of-life
 	url = https://github.com/kiruthika-Ponnan/quality-of-life.git
@@ -71,3 +72,6 @@
 [submodule "gcp_scanner"]
 	path = gcp_scanner
 	url = git@github.com-personal:mkmad/gcp_scanner.git
+[submodule "ai-ml"]
+	path = ai-ml
+	url = git@github.com-mkmad:mkmad/ai-ml.git
