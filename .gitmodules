@@ -74,4 +74,4 @@
 	url = git@github.com-personal:mkmad/gcp_scanner.git
 [submodule "ai-ml"]
 	path = ai-ml
-	url = git@github.com-mkmad:mkmad/ai-ml.git
+	url = git@github.com:mkmad/ai-ml.git
